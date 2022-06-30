@@ -1,47 +1,41 @@
 /*commercial color : #ef394e*/
 /* js logo color : #f0db4f */
 
+* {
+  margin: 0;
+}
 @font-face {
-      font-family: Shabnam;
-      src: url("fonts/Shabnam.eot");
-      src: url("fonts/Shabnam.eot?#iefix") format("Shabnam-opentype"),
-        url("fonts/Shabnam.woff") format("woff"),
-        url("fonts/Shabnam.ttf") format("truetype");
-      font-weight: normal;
-      font-style: normal;
-    }
-    @media only screen and (max-width:800px) {
-      nav li{
-        display: none !important;
-      }
-    }
-    *{
-      margin: 0;
-    }
-    
-    .photo{
-      max-width: 100%;
-    background: url('IMDb.help.background.jpg') center;
-      background-size: cover;
-      height: 273px;
-    }
-    .text{
-      background-color: rgb(255, 255, 255);
-      width: 250px;
-      height: 40px;
-      margin: 0 auto;
-      padding-top: 12px;
-      text-align: center;
-      border-radius: 8px;
-    
-    }
-    .text p {
-      text-align: center!important;
-      font-size: 15pt;
-      font-weight: bold;
-    }
-    
-    .lorem{
-          font-size: 17pt;
-          color: green;
-    }
+  font-family: Shabnam;
+  src: url("fonts/Shabnam.eot");
+  src: url("fonts/Shabnam.eot?#iefix") format("Shabnam-opentype"),
+    url("fonts/Shabnam.woff") format("woff"),
+    url("fonts/Shabnam.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@media only screen and (max-width: 800px) {
+  nav li {
+    display: none !important;
+  }
+}
+
+.photo {
+  max-width: 100%;
+  background: url("IMDb.help.background.jpg") center;
+  background-size: cover;
+  height: 273px;
+}
+.text {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 40px;
+  margin: 0 auto;
+  padding-top: 12px;
+  text-align: center;
+  border-radius: 8px;
+}
+.text p {
+  text-align: center !important;
+  font-size: 15pt;
+  font-weight: bold;
+}
