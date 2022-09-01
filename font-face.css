@@ -1,0 +1,135 @@
+
+@font-face {
+    font-family: 'poppins-r';
+    src: url('./fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-regular-webfont.woff') format('woff'),
+         url('./fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('./fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-bold-webfont.woff') format('woff'),
+         url('./fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('./fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-light-webfont.woff') format('woff'),
+         url('./fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('./fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-medium-webfont.woff') format('woff'),
+         url('./fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('./fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('./fonts/poppins-semibold-webfont.woff') format('woff'),
+         url('./fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'tailwindblack';
+    src: url('./fonts/tailwindblack-webfont.woff2') format('woff2'),
+         url('./fonts/tailwindblack-webfont.woff') format('woff'),
+         url('./fonts/TailwindBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tailwindlight';
+    src: url('./fonts/tailwindlight-webfont.woff2') format('woff2'),
+         url('./fonts/tailwindlight-webfont.woff') format('woff'),
+         url('./fonts/TailwindLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tailwindregular';
+    src: url('./fonts/tailwindregular-webfont.woff2') format('woff2'),
+         url('./fonts/tailwindregular-webfont.woff') format('woff'),
+         url('./fonts/TailwindRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('./fonts/quicksand-bold-webfont.woff2') format('woff2'),
+         url('./fonts/quicksand-bold-webfont.woff') format('woff'),
+         url('./fonts/Quicksand-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('./fonts/quicksand-light-webfont.woff2') format('woff2'),
+         url('./fonts/quicksand-light-webfont.woff') format('woff'),
+         url('./fonts/Quicksand-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandmedium';
+    src: url('./fonts/quicksand-medium-webfont.woff2') format('woff2'),
+         url('./fonts/quicksand-medium-webfont.woff') format('woff'),
+         url('./fonts/Quicksand-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('./fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('./fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('./fonts/Quicksand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

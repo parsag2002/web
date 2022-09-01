@@ -10,29 +10,6 @@ search bar #f1f3f4
 search bar text #a4aab2
 fad #f6f6f6
 */
-/* 
-@font-face {
-    font-family: 'Quicksand';
-    src: url('fonts/quicksand/Quicksand-Regular.ttf');
-    src: url('/fonts/quicksand/Quicksand-Light.ttf') format('truetype'),
-         url('fonts/quicksand/Quicksand-Medium.ttf') format('truetype'),
-         url('/fonts/quicksand/Quicksand-Bold.ttf') format('truetype'),
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Tailwind';
-    src: url('/fonts/Tailwind-www.Dfonts.org/Tailwind/Tailwind-Regular/Tailwind\ Regular.ttf');
-    src: url('/fonts/Tailwind-www.Dfonts.org/Tailwind/Tailwind-Black/Tailwind\ Black.ttf') format('truetype'),
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'poppins';
-    src: url('/fonts/Poppins-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-} */
 
 #preloader {
   background: #C4EBE8 url(preloader.gif) no-repeat center center;
@@ -62,15 +39,14 @@ fad #f6f6f6
 .banner-text-in h3 {
   color: white;
   font-size: 2.25em;
-  font-family: poppins, inner, Satoshi-Variable, sans-serif;
+  font-family: 'poppinsbold', sans-serif;
   letter-spacing: 2px;
   text-shadow: #f115af 6px 6px 3px;
 }
 
 .banner-text-in h5 {
   margin-top: 20px;
-  font-weight: 600;
-  font-family: inner, Satoshi-Variable, sans-serif;
+  font-family: 'poppinssemibold', sans-serif;
   font-size: 1.1em;
   color: #c5c5c5;
   text-shadow: white 0px 5px 20px;
@@ -240,7 +216,7 @@ fad #f6f6f6
 }
 
 .intro-text h5 {
-  font-family: Tailwind, Satoshi-Variable, sans-serif;
+  font-family: "tailwindblack", sans-serif;
   font-size: 1.2em;
   padding-bottom: 20px;
 }
@@ -248,12 +224,12 @@ fad #f6f6f6
 .intro-text p {
   color: #696e72;
   line-height: 1.3em;
-  font-family: Tailwind, sans-serif;
+  font-family: "tailwindregular", sans-serif;
   font-size: 0.76em;
 }
 
 .intro-text span {
-  font-family: Quicksand, poppins, inner;
+  font-family: "Quicksandlight", "poppinssemibold";
   color: #545c61;
   background-color: #e8e8e8;
   padding: 5px;
@@ -296,7 +272,7 @@ hr {
 }
 
 .title {
-  font-family: Tailwind, Satoshi-Variable, sans-serif;
+  font-family: "Tailwindblack", sans-serif;
   text-align: center;
   padding: 20px;
   font-size: 2em;
@@ -336,14 +312,14 @@ hr {
 
 .card h5 {
   text-align: center;
-  font-family: Quicksand, poppins, inner, Satoshi-Variable, sans-serif;
-  font-weight: 900;
+  font-family: "Quicksandbold", "poppinssemibold", sans-serif;
   padding: 10px;
   font-size: 2em;
 }
 
 .card p {
-  font-family: Tailwind, Satoshi-Variable, sans-serif;
+  font-family: "Tailwindregular", sans-serif;
+  font-weight: 900;
   font-size: 1em;
   text-align: center;
   color: #696e72;
@@ -380,7 +356,7 @@ hr {
   position: absolute;
   right: 40px;
   bottom: 40px;
-  font-family: Quicksand, Satoshi-Variable, sans-serif;
+  font-family: 'quicksandregular', sans-serif;
 }
 
 .full a {
@@ -437,7 +413,7 @@ hr {
 
 .rec-text p {
   color: #696e72;
-  font-family: Quicksand, poppins, inner, sans-serif;
+  font-family: 'quicksandmedium', "poppinssemibold", sans-serif;
   font-size: 1.7em;
   font-weight: 900;
   margin: 10px 0;
@@ -445,7 +421,7 @@ hr {
 
 .rec-author {
   color: #4f5255;
-  font-family: Quicksand, poppins, inner, sans-serif;
+  font-family: "Quicksandbold", "poppinsbold", sans-serif;
   font-size: 1.4em;
   font-weight: 900;
 }

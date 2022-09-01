@@ -10,7 +10,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  font-family: Quicksand, poppins, inner, sans-serif;
+  font-family: "quicksandmedium", "poppins-r", sans-serif;
   background-color: white;
   position: fixed;
   top: 0;
@@ -124,7 +124,7 @@
   text-decoration: none;
   color: #4a4a4d;
   font-weight: 900;
-  font-family: poppins, inner, Satoshi-Variable, sans-serif;
+  font-family: "poppinsbold", sans-serif;
 }
 
 .call-btn:hover {
@@ -158,7 +158,7 @@
   padding-top: 60px;
   /* Place content 60px from the top */
   transition: 0.5s;
-  font-family: Quicksand, poppins, inner, Satoshi-Variable, sans-serif;
+  font-family: "quicksandmedium", "poppins-r", sans-serif;
   border-left: 1px #c4c4c4 solid;
 }
 
@@ -218,7 +218,7 @@
   width: 60%;
   height: auto;
   font-size: 2.5rem;
-  font-family: poppins, inner, Quicksand, sans-serif;
+  font-family: 'poppinsbold', "quicksandbold", sans-serif;
 }
 
 .f-addresses {
@@ -232,7 +232,7 @@
 
 .f-addresses a {
   color: white;
-  font-family: Quicksand, poppins, inner, sans-serif;
+  font-family: "quicksandmedium", poppins, sans-serif;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -273,7 +273,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  font-family: Quicksand, poppins, inner, sans-serif;
+  font-family: "quicksandmedium", poppins, sans-serif;
   justify-content: space-between;
   font-size: 1.2rem;
   font-weight: 900;
