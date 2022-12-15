@@ -1,25 +1,28 @@
 * {
   box-sizing: border-box;
 }
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
-.li{
-    padding: 10px 0;
-    border-bottom: 1px #dadada solid;
+.li {
+  padding: 10px 0;
+  border-bottom: 1px #dadada solid;
 }
-.li3{
-    padding: 10px 0;
+.li3 {
+  padding: 10px 0;
 }
-.li a{
-    font-size: 1.5em;
+.li a {
+  font-size: 1.5em;
 }
-h5{
-    font-size: 2em;
-    font-weight: 800;
+.li3 a {
+  font-size: 1.5em;
 }
-h6{
-    font-size: 1.5em;
-    font-weight: 800;
-    padding: 40px 0;
+h5 {
+  font-size: 2em;
+  font-weight: 800;
+}
+h6 {
+  font-size: 1.5em;
+  font-weight: 800;
+  padding: 40px 0;
 }
