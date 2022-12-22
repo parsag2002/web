@@ -1,0 +1,393 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* ***** hero******* */
+#hero {
+  margin: 0px auto 67px;
+  font-size: 1.1em;
+  padding-top: 160px;
+}
+#hero h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+#hero p {
+  font-size: 22px;
+  margin-bottom: 32px;
+  font-family: "Epilogue", sans-serif;
+}
+
+@media (max-width: 767px) {
+  #hero h3 {
+    font-size: 30px;
+  }
+  #hero p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  #hero h3 {
+    font-size: 48px;
+  }
+  #hero p {
+    font-size: 17px;
+  }
+}
+
+/* *********** video *********** */
+video {
+  width: 100%;
+}
+
+/* *********** cards ************ */
+#cards {
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+@media (min-width: 992px) and (max-width: 1050px) {
+  #cards {
+    margin-top: 270px;
+  }
+}
+@media (min-width: 1051px) and (max-width: 1199px) {
+  #cards {
+    margin-top: 335px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1320px) {
+  #cards {
+    margin-top: 400px;
+  }
+}
+@media (min-width: 1321px) {
+  #cards {
+    margin-top: 440px;
+  }
+}
+
+#cards h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+#cards p {
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+}
+
+/* *********** slider *********** */
+.title {
+  margin-top: 96px;
+}
+.title h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  line-height: 1.2em;
+  color: #212121;
+  font-weight: bolder;
+  margin-bottom: 16px;
+}
+.title p {
+  font-family: "Epilogue", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #212121;
+  padding-bottom: 48px;
+}
+
+/* *********** slider images************* */
+.carousel {
+  width: 80%;
+  height: 550px;
+  overflow: hidden;
+  margin: 50px auto;
+  position: relative;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#s1 {
+  background-image: url("./assets/images/car.jpg");
+}
+#s2 {
+  background-image: url("./assets/images/stair.jpg");
+}
+#s3 {
+  background-image: url("./assets/images/window.jpg");
+}
+.carousel-item a {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 100%;
+}
+.carousel-control-next:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.178)
+  );
+}
+.carousel-control-prev:hover {
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.178)
+  );
+}
+
+/* ********* counter *********** */
+.con i,
+.con span {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+.con p {
+  font-size: 1.2em;
+  font-family: "Poppins", sans-serif;
+}
+/* ************* recommendation ************* */
+#rec {
+  background-color: #92003b;
+  width: 100%;
+  height: auto;
+  font-family: "Epilogue", sans-serif;
+  margin: 50px 0;
+}
+#rec .row {
+  padding: 100px 0;
+}
+#rec i {
+  color: white;
+  font-size: 2em;
+}
+#rec p {
+  color: white;
+  font-size: 24px;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+}
+#author {
+  display: block;
+  margin-bottom: -25px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+#job {
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/* ************** pages ************** */
+#page {
+  margin: 150px 0 50px;
+  padding: 0 30px;
+  overflow-x: hidden;
+}
+#page-titles {
+  padding-right: 40px;
+}
+#page-titles span {
+  font-size: 16px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+}
+#page-titles p {
+  font-size: 16px;
+  font-family: "Epilogue", sans-serif;
+}
+
+#page-titles h3 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  margin: 16px 0;
+}
+.img {
+  margin-bottom: 16px;
+}
+#page-cards > div {
+  margin-bottom: 30px;
+}
+#page-cards h4 {
+  margin-bottom: 16px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Epilogue", sans-serif;
+  letter-spacing: -1px;
+}
+.dis {
+  margin-bottom: 16px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+}
+.lik {
+  display: inline-block;
+}
+.lik a {
+  font-size: 17px;
+  color: #ba0984;
+  font-weight: 550;
+  text-decoration: none;
+}
+.lik i {
+  margin-left: 7px;
+  transition: 0.3s;
+}
+.lik a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #ba0984;
+  transition: width 0.3s;
+}
+
+.lik a:hover::after {
+  width: 100%;
+}
+.lik a:hover i {
+  margin-left: 12px;
+}
+
+/* *********** break points ************ */
+
+/* *********** xs ********** */
+@media (max-width: 575px) {
+  .title h3 {
+    font-size: 32px;
+  }
+  .title p {
+    font-size: 16px;
+  }
+  .carousel {
+    height: 210px;
+  }
+  #rec i {
+    font-size: 0.9em;
+  }
+  #rec p {
+    font-size: 17px;
+  }
+  #author {
+    font-size: 14px;
+  }
+  #job {
+    font-size: 13px;
+  }
+  #page-titles span {
+    font-size: 14px;
+  }
+  #page-titles p {
+    font-size: 14px;
+  }
+
+  #page-titles h3 {
+    font-size: 24px;
+  }
+}
+/* *********** sm ********** */
+@media (min-width: 576px) and (max-width: 767px) {
+  .title h3 {
+    font-size: 40px;
+  }
+  .title p {
+    font-size: 16px;
+  }
+  .carousel {
+    height: 300px;
+  }
+  #rec i {
+    font-size: 0.9em;
+  }
+  #rec p {
+    font-size: 20px;
+  }
+  #author {
+    font-size: 17px;
+  }
+  #job {
+    font-size: 14px;
+  }
+  #page-titles span {
+    font-size: 14px;
+  }
+  #page-titles p {
+    font-size: 14px;
+  }
+
+  #page-titles h3 {
+    font-size: 24px;
+  }
+}
+/* *********** md ********** */
+@media (min-width: 768px) and (max-width: 991px) {
+  .title h3 {
+    font-size: 40px;
+  }
+  .title p {
+    font-size: 16px;
+  }
+  .carousel {
+    height: 400px;
+  }
+  #page-titles span {
+    font-size: 14px;
+  }
+  #page-titles p {
+    font-size: 14px;
+  }
+
+  #page-titles h3 {
+    font-size: 32px;
+  }
+}
+/* *********** lg ********** */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousel {
+    height: 480px;
+  }
+  #page-titles span {
+    font-size: 14px;
+  }
+  #page-titles p {
+    font-size: 14px;
+  }
+
+  #page-titles h3 {
+    font-size: 32px;
+  }
+}
+/* *********** xl ********** */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+/* *********** xxl ********** */
+@media (min-width: 1400px) {
+}
