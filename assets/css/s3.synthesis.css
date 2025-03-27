@@ -135,15 +135,15 @@ video {
 }
 
 #s1 {
-  background-image: url("/assets/images/s3.synthesis/car.jpg");
+  background-image: url("assets/images/s3.synthesis/car.jpg");
 }
 
 #s2 {
-  background-image: url("/assets/images/s3.synthesis/girl.jpg");
+  background-image: url("assets/images/s3.synthesis/girl.jpg");
 }
 
 #s3 {
-  background-image: url("/assets/images/s3.synthesis/window.jpg");
+  background-image: url("assets/images/s3.synthesis/window.jpg");
 }
 
 .carousel-item a {
